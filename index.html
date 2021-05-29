@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- main Container -->
+    <div class="container">
+
+        <!-- game over  -->
+        <div id="over">
+            <h1>GAME OVER <br>
+                Your score is <span id="scoreis"> #</span></h1>
+        </div>
+        <!-- top line -->
+        <div class="header">
+
+
+            <div id="right">
+                Correct
+            </div>
+            <div id="wrong">
+                Wrong
+            </div>
+
+
+            <div class="score">
+                <h3>Score : <span id="score">#</span></h3>
+            </div>
+        </div>
+
+        <!-- question goes here -->
+        <div class="ques">
+            <h2> QUESTION GOES HERE</h2>
+        </div>
+        <!-- direction -->
+        <div class="direction">
+            <h3>Click on the correct answer</h3>
+        </div>
+
+        <!-- option goes here -->
+        <div class="options">
+
+            <div class="num" id="num1">#</div>
+            <div class="num" id="num2">#</div>
+            <div class="num" id="num3">#</div>
+            <div class="num" id="num4">#</div>
+        </div>
+        <!-- timer -->
+
+        <div id="timesection">
+            <h4>Time remaining : <span id="remaining">#</span>
+            </h4>
+        </div>
+        <!-- start reset button -->
+
+        <button id="btn" class="start">Start Game
+
+        </button>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
